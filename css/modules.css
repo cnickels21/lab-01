@@ -10,12 +10,20 @@ section:last-of-type {
     background-color: green;
 }
 
-#yellow {
+.yellow {
     background-color: yellow;
 }
 
-#orange {
+.yellow-green {
+    background-color: yellowgreen;
+}
+
+.orange {
     background-color: orange;
+}
+
+.tomato {
+    background-color: tomato;
 }
 
 @media (min-width: 768px) {
@@ -28,12 +36,20 @@ section:last-of-type {
         background-color: yellow;
     }
 
-    .indigo {
+    #indigo {
         background-color: indigo;
     }
     
-    .blue {
+    #blue {
         background-color: blue;
+    }
+
+    #skyblue {
+        background-color: skyblue;
+    }
+
+    #lavender {
+        background-color: lavender;
     }
 
 }
