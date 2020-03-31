@@ -3,7 +3,7 @@
 }
 
 body {
-    max-width: 480px;
+    width: 480px;
     margin: 0 auto;
     background-color: lightcyan;
 }
@@ -11,4 +11,16 @@ body {
 header, aside, section, article, footer {
     text-align: center;
     border: solid 1px black;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        width: 960px;
+    }
+
+    header {
+        width: 100%;
+    }
+
 }

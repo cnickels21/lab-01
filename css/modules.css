@@ -2,10 +2,6 @@
     float: left;
 }
 
-.clear {
-    clear: both;
-}
-
 section:first-of-type {
     background-color: blue;
 }
@@ -20,4 +16,24 @@ section:last-of-type {
 
 #orange {
     background-color: orange;
+}
+
+@media (min-width: 768px) {
+
+    section:first-of-type {
+        background-color: orange;
+    }
+
+    section:last-of-type {
+        background-color: yellow;
+    }
+
+    .indigo {
+        background-color: indigo;
+    }
+    
+    .blue {
+        background-color: blue;
+    }
+
 }
