@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+
+header, aside, section, article, footer {
+    text-align: center;
+    border: solid 1px black;
+}

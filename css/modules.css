@@ -1,0 +1,23 @@
+.left-float {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+section:first-of-type {
+    background-color: blue;
+}
+
+section:last-of-type {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#orange {
+    background-color: orange;
+}

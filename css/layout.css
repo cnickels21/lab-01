@@ -1,0 +1,31 @@
+header {
+    height: 75px;
+    line-height: 75px;
+    margin-top: 60px;
+    background-color: purple;
+}
+
+aside {
+    height: 150px;
+    line-height: 150px;
+    background-color: indigo;
+}
+
+section {
+    height: 125px;
+    line-height: 125px;
+}
+
+article {
+    height: 250px;
+    line-height: 250px;
+    width: 50%;
+    display: inline-block;
+}
+
+footer {
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 60px;
+    background-color: red;
+}
