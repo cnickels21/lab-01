@@ -1,6 +1,6 @@
-.left-float {
+/* .left-float {
     float: left;
-}
+} */
 
 section:first-of-type {
     background-color: blue;
@@ -50,6 +50,31 @@ section:last-of-type {
 
     #lavender {
         background-color: lavender;
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+    }
+
+    .main {
+        grid-area: body;
+    }
+
+    .article {
+        grid-area: article
     }
 
 }
