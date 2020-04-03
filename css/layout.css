@@ -13,6 +13,17 @@ aside {
 
 @media (max-width: 800px) {
 
+   
+      .flex-container > section {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+      }
+
+
+
     #header {
         width: 100%;
         background-color: red;
@@ -22,13 +33,6 @@ aside {
         height: 800px;
         background-color: green;
     }
-
-   #article {
-        
-        
-    }
-
-
 
    #halfContent {
     width: 50%;
@@ -40,17 +44,3 @@ aside {
     } 
 
 } 
-
-.flex-container {
-    /* display: flex; */
-    /* align-items: stretch; */
-    
-  }
-  .flex-container > section {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    text-align: center;
-  
-    font-size: 30px;
-  }
