@@ -4,10 +4,10 @@
 
 body {
     margin: 0 auto;
-    background-color: rgb(45, 245, 245);
+    background-color: tan;
 }
 
 header, aside, section, article, footer {
     text-align: center;
-    border: solid 1px black;
+    border: solid 2px black;
 }
